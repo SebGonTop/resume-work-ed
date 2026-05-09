@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sebastian Torres | Portfolio</title>
+    <style>
+        :root { --primary: #2c3e50; --accent: #3498db; --text: #333; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #e9ecef; color: var(--text); margin: 0; padding: 20px; font-size: 14px; }
+        .container { max-width: 800px; margin: auto; background: white; padding: 30px; border-radius: 4px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        header { text-align: center; border-bottom: 2px solid var(--primary); padding-bottom: 15px; margin-bottom: 20px; }
+        h1 { margin: 0; font-size: 28px; color: var(--primary); letter-spacing: 1px; }
+        h2 { font-size: 16px; color: var(--primary); border-bottom: 1px solid #ddd; padding-bottom: 5px; margin-top: 20px; text-transform: uppercase; }
+        .contact { font-size: 13px; color: #666; margin-top: 5px; }
+        .entry { margin-bottom: 15px; }
+        .entry-header { display: flex; justify-content: space-between; font-weight: bold; }
+        .sub-header { font-style: italic; color: var(--accent); margin-bottom: 5px; }
+        ul { margin: 5px 0; padding-left: 18px; }
+        li { margin-bottom: 3px; }
+        .skills-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; background: #f8f9fa; padding: 15px; border-radius: 4px; }
+        .badge { display: inline-block; background: #eee; padding: 2px 8px; border-radius: 12px; font-size: 11px; margin-top: 5px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>SEBASTIAN TORRES</h1>
+            <div class="contact">New York, NY • (929) 469-8685 • sebgsweaty@gmail.com</div>
+        </header>
+
+        <section>
+            <h2>Professional Summary</h2>
+            <p>Motivated high school junior with strong communication, research, and technical design skills. Experienced in academic leadership, mentoring, and 3D prototyping through hands-on programs. Proven ability to produce high-quality work and collaborate effectively in team environments.</p>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <div class="entry">
+                <div class="entry-header"><span>Inwood Early College for Health & IT</span><span>Anticipated 2027</span></div>
+                <div class="sub-header">High School Junior | New York, NY</div>
+                <p><strong>Relevant Coursework:</strong> English 111 (A-), Public Speaking (97%), Art History (98%), First Year Seminar, Intro to College Experience.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Professional Experience</h2>
+            <div class="entry">
+                <div class="entry-header"><span>Summer Youth Employment Program (SYEP)</span><span>Summer 2025</span></div>
+                <ul>
+                    <li>Developed a professional NYC travel brochure highlighting cultural landmarks and attractions.</li>
+                    <li>Conducted research on college pathways and internships to support career readiness.</li>
+                    <li>Collaborated with peers in professional development workshops to refine soft skills.</li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <div class="entry-header"><span>WLG - Work Learn Grow / P.S. 278</span><span>2024 - 2025</span></div>
+                <ul>
+                    <li>Completed a month-long intensive college-level course.</li>
+                    <li>Supported staff and students at P.S. 278, streamlining classroom daily operations.</li>
+                    <li>Managed <strong>retention calls</strong>, professionally communicating with program participants.</li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <div class="entry-header"><span>Summer Youth Employment Program (SYEP)</span><span>Summer 2024</span></div>
+                <ul>
+                    <li>Designed and 3D-printed a functional prosthetic hand prototype for real-world needs.</li>
+                    <li>Delivered formal presentations and documented progress through technical research.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Leadership & Activities</h2>
+            <div class="entry">
+                <p><strong>Peer Mentor:</strong> Mentored freshmen to support academic growth, responsibility, and study habits.</p>
+                <p><strong>Student Aide:</strong> Assisted teachers with classroom organization and instructional material prep.</p>
+                <p><strong>Robotics Club:</strong> Built and programmed robots, developing technical problem-solving skills.</p>
+                <p><strong>Art Club:</strong> Explored creativity through hands-on mediums including bracelets and mask-making.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Skills & Certifications</h2>
+            <div class="skills-grid">
+                <div><strong>Technical:</strong> Microsoft Word, PPT, Excel, 3D Design, Research, Documentation.</div>
+                <div><strong>Interpersonal:</strong> Public Speaking (97% avg), Retention Calling, Spanish, Teamwork.</div>
+            </div>
+            <div style="margin-top: 10px;">
+                <strong>Certifications:</strong> EverFi Ignition: Digital & Financial Awareness; SYEP Certificate (2 Years); WLG Completion.
+            </div>
+        </section>
+    </div>
+</body>
+</html>
